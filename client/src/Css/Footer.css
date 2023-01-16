@@ -1,0 +1,238 @@
+/* 
+************************************************************
+                        Why Choose Us
+************************************************************ */
+.why_choose_us {
+    background-color: white;
+}
+
+.why_choose_us>h2 {
+    font-size: 22px !important;
+    font-weight: 500;
+    color: #000;
+}
+
+.why_choose_us>.why_choose_us_items {
+    padding: 0 6rem;
+}
+
+.why_choose_us>.why_choose_us_items>.why_choose_us_item>p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.why_choose_us>.why_choose_us_items>.why_choose_us_item>i {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.newsletter {
+    background-color: #1b1b1b;
+}
+
+.footer>.newsletter>.container {
+    position: relative;
+    width: 32%;
+}
+
+.input-icon>input {
+    padding-right: 3rem;
+    width: 100%;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    min-width: 50px;
+    color: black;
+    padding: 18px 30px;
+    background: linear-gradient(to left, white 50%, black 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+    z-index: 1;
+}
+
+.input-icon>i:hover {
+    background-position: left;
+    color: white;
+}
+
+.footer>.footer__mobile>.accordion>.accordion-item>.accordion-header>.accordion-button {
+    padding: 1rem 0;
+    box-shadow: none;
+}
+
+.socialIcon:hover {
+    color: #808080;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer>.col>.row {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    /* border: 1px solid red; */
+    padding: 90px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.col>li {
+    list-style: none;
+}
+
+.col>a>.socialIcon {
+    font-size: 20px;
+}
+
+.Linklist__Item>a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #808080;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Footer__content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #3e3a39;
+}
+
+.Footer__content>.Footer__ThemeAuthor {
+    font-size: 13px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.Footer__content>.Footer__ThemeAuthor>a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+}
+
+.desktop__Footer_bottom>p {
+    font-size: 13px;
+}
+
+.desktop__Footer_bottom>a {
+    font-size: 13px !important;
+}
+
+.Footer__content>a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px;
+}
+
+
+.curiourCompany>li {
+    list-style: none;
+    max-width: 44px;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+}
+
+.PaymentList>li {
+    list-style: none;
+    max-width: 28%;
+    display: block;
+    margin: auto;
+}
+
+.footer__mobile>.accordion-body {
+    padding: 0rem 2rem;
+}
+
+.footer__mobile {
+    display: none;
+}
+
+.footer__mobile>.col>.row {
+    padding: 5rem 2rem;
+}
+
+.footer__mobile>.d-flex>.w-50>img{
+    width: 90px;
+}
+.footer_desktop>section.col>.hidden-phone>img{
+    width: 90px;
+}
+
+
+@media (max-width:768px) {
+    .footer_desktop {
+        display: none;
+    }
+
+    .footer__mobile {
+        display: block;
+    }
+
+    .footer>.newsletter>.container {
+        width: 92%;
+    }
+
+    .footer>.newsletter>p {
+        padding: 0 30px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:768px) {
+    .why_choose_us>h2 {
+        font-size: 16px !important;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .why_choose_us>.why_choose_us_items>.why_choose_us_item {
+        width: 49%;
+    }
+
+    .why_choose_us>.why_choose_us_items {
+        padding: 0 2rem;
+    }
+
+    .why_choose_us>.why_choose_us_items>.why_choose_us_item>i {
+        margin: 0 1rem;
+    }
+
+    .why_choose_us>.why_choose_us_items>.why_choose_us_item>p {
+        font-size: 10px;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    .why_choose_us>h2 {
+        font-size: 20px !important;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .why_choose_us>.why_choose_us_items>.why_choose_us_item {
+        width: 50%;
+    }
+
+    .why_choose_us>.why_choose_us_items {
+        padding: 0 2rem;
+    }
+
+    .why_choose_us>.why_choose_us_items>.why_choose_us_item>p {
+        font-size: 16px;
+        margin: 1rem 0;
+    }
+}

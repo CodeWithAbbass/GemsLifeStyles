@@ -1,0 +1,372 @@
+.header {
+  width: 100%;
+}
+
+.header__topBar {
+  padding: 12px 15px;
+  font-size: 11px;
+  width: 100%;
+}
+
+.header__navBar {
+  height: 66px;
+  padding: 18px 60px;
+  width: 100%;
+}
+
+.blackLogo {
+  display: none;
+}
+
+.navBar__left {
+  width: 20%;
+  color: white;
+}
+
+.header__navBar>.navBar__left>.hamBurgerIcon {
+  width: 20%;
+  cursor: pointer;
+}
+
+.header__navBar>.navBar__left>.hamBurgerIcon>.hamburger__Icon {
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.navBar__center {
+  width: 10%;
+}
+
+.navBar__center>a>img {
+  width: 100%;
+}
+
+.navBar__right {
+  font-size: 16px !important;
+  width: 20%;
+}
+
+.navBar__right>a {
+  text-decoration: none;
+}
+
+.navBar__right>.cartContainer {
+  cursor: pointer;
+}
+
+.navBar__right>.cartContainer>.total_cartProduct {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  background: #1b1b1b;
+  text-align: center;
+  position: absolute;
+  transform: translate(-6px, -6px);
+  border-radius: 50px;
+  min-width: 22px;
+  min-height: 20px;
+  padding: 2px 0;
+}
+
+#rightIcon {
+  color: white;
+}
+
+.navBar__currency>button {
+  font-size: 12px;
+  border: none;
+}
+
+.navBar__currency>button:active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navBar__currency>.dropdown-menu {
+  min-width: 25%;
+}
+
+.navBar__currency>ul>li>button {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  color: white;
+}
+
+.navBar__country>button {
+  font-size: 20px;
+  border: none;
+}
+
+.navBar__currency>button:active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navBar__country>.dropdown-menu {
+  min-width: 25%;
+}
+
+.navBar__country>ul>li>button {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.sidenav a {
+  padding: 25px 0;
+  text-decoration: none;
+  font-size: 15px !important;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #1fbaff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px !important;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+#mySidenav>.container>.AllProducts {
+  border-bottom: 1px solid white;
+}
+
+.NewArrivals {
+  border-bottom: 1px solid white;
+}
+
+.Contact {
+  border-bottom: 1px solid white;
+}
+
+.sidenav__Support {
+  margin-left: 20px;
+  border-bottom: 1px solid white;
+}
+
+.sidenav__Support>.dropdown-toggle::after {
+  margin-left: 7rem;
+}
+
+.sidenav>.container>.accordion {
+  border-bottom: 1px solid white;
+}
+
+.sidenav>.container>.accordion-item {
+  background-color: #000000 !important;
+  border: none !important;
+}
+
+.sidenav>.container>.accordion>.accordion-item>.accordion-header>.accordion-button {
+  font-size: 15px;
+  padding: 25px 0 !important;
+  box-shadow: none !important;
+  padding: 1rem 0;
+  box-shadow: none;
+}
+
+.sidenav>.container>.accordion>.accordion-item>.accordion-header>.accordion-button>.accordion-button::after {
+  color: #FFFFFF !important;
+}
+
+.sidenav>.container>.accordion>.accordion-item>.accordion-header>.accordion-button>.accordion-button:hover {
+  color: #1fbaff !important;
+}
+
+/* .sidenav>.container>.accordion>.accordion-item>.accordion-collapse>.accordion-body {
+  padding: 0rem 5rem;
+} */
+
+.bottomBtn {
+  border: none;
+}
+
+.searchBar {
+  padding: 20px 0px 10px 0px;
+  display: none;
+  z-index: 2;
+  position: fixed;
+  top: 6%;
+  transform: translateY(-25px);
+  transition: 0.5s;
+}
+
+.searchBar .form-control {
+  padding: 3rem 5rem;
+  padding-top: 6rem;
+  width: 100%;
+}
+
+
+/* 
+***********************************************************
+                        SideCart
+*********************************************************** */
+.sidecart {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-bottom: 50px;
+  box-shadow: 0px 20px 20px 0px #d9d9d9;
+}
+
+.sidecart>.sidecart_Header {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 30px;
+}
+
+.sidecart>.sidecart_Header>.sidecart_Header_heading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+
+.sidecart>.sidecart_Header>.sidecart_Header_closebtn {
+  font-size: 36px;
+  line-height: 1;
+  color: #000;
+}
+
+.sidecart>.container>.SideCart_checkoutBtn {
+  text-decoration: none;
+  min-width: 142px;
+  width: 100%;
+  color: white;
+  padding: 14px 24px;
+  margin-top: 2rem;
+  border: 1px solid black;
+  background: linear-gradient(to left, black 50%, white 50%) right;
+  background-size: 200%;
+  transition: .3s ease-out;
+}
+
+.sidecart>.container>.SideCart_checkoutBtn:hover {
+  background-position: left;
+  color: black;
+}
+
+
+
+/* 
+***********************************************************
+                    Media Query
+*********************************************************** */
+
+@media screen and (max-width: 768px) {
+  .header_static {
+    position: static;
+    background: #000;
+  }
+
+  .header__navBar {
+    width: 100%;
+    padding: 16px 20px;
+  }
+
+  .navBar__left {
+    align-self: center;
+    width: 10%;
+  }
+
+  .navBar__center {
+    align-self: center !important;
+    width: 20%;
+  }
+
+
+  .navBar__right {
+    width: 10%;
+    align-self: center;
+  }
+
+  .navBar__currency {
+    display: none;
+  }
+
+  .navBar__country {
+    display: none;
+  }
+
+  .navBar__right .fa-magnifying-glass {
+    display: none;
+  }
+
+  .navBar__right .fa-user {
+    display: none;
+  }
+
+  .sidenav {
+    padding-top: 100px;
+    margin-right: 50px !important;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  .sidenav .container {
+    padding: 0 50px !important;
+  }
+
+  .sidenav .closebtn {
+    margin-left: 3rem;
+    margin-top: 0rem;
+  }
+
+  .sidenav>.container>.accordion>.accordion-item>.accordion-collapse>.accordion-body {
+    padding: 0rem 1rem;
+  }
+
+}
+
+@media (max-width:1024px) {
+  .navBar__left {
+    width: 40% !important;
+  }
+
+  .navBar__right {
+    width: 40% !important;
+  }
+}
+
+@media (max-width:1440px) {
+  .navBar__left {
+    width: 25%;
+  }
+
+  .navBar__right {
+    width: 25%;
+  }
+}

@@ -1,0 +1,95 @@
+/* 
+************************************************************
+                      Scroll Up Button
+************************************************************ */
+.scrollUp {
+  border-radius: 100%;
+  position: fixed;
+  top: 90%;
+  right: 2%;
+  z-index: 1;
+  transition: rgb(163, 78, 78) 0.15s ease, opacity 0.15s ease, transform 0.2s ease, color 0.2s ease;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgb(54 54 54 / 15%);
+  font-size: 20px;
+  padding: 0;
+  /* display: none; */
+}
+
+@keyframes buttonFromBottomToTop {
+  25% {
+    transform: translate(0px, -50px);
+  }
+
+  50% {
+    transform: translate(50px, 0px);
+  }
+
+  75% {
+    transform: translate(0, 50px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.scrollUp i {
+  padding: 12px 14px !important;
+
+}
+
+.scrollUp:hover {
+  transform: scale(1.1);
+
+}
+
+.scrollUp i:hover {
+  animation: buttonFromBottomToTop 0.5s ease forwards;
+}
+
+
+/* 
+                      Media Query
+************************************************************ */
+@media (max-width:768px) {
+  .scrollUp {
+    display: none;
+  }
+}
+
+
+/* 
+************************************************************
+                  Cart Continue Shopping...
+************************************************************ */
+
+.Continue_Shopping {
+  height: 100vh;
+}
+
+.Continue_Shopping>.EmptyStateTitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Continue_Shopping>.Continue_Shopping_Btn {
+  font-size: 14px;
+  margin-top: .5rem;
+  float: right;
+  min-width: 142px;
+  color: white;
+  padding: 8px 30px;
+  border: 1px solid black;
+  background: linear-gradient(to left, black 50%, white 50%) right;
+  background-size: 201%;
+  transition: .3s ease-out;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.Continue_Shopping>.Continue_Shopping_Btn:hover {
+  background-position: left;
+  color: black;
+}

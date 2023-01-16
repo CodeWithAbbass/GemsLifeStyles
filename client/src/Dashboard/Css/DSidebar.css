@@ -1,0 +1,58 @@
+.DSidebar {
+    color: #6C7293;
+}
+
+.DSidebar>.closeBtn {
+    cursor: pointer;
+    margin: 0 20px;
+    float: right;
+}
+.DSidebar>.admin>.adminImg>img{
+    width: 50px;
+    height: 50px;
+}
+
+.DSidebar>.navbar-nav>.nav-item {
+    text-decoration: none;
+    color: #6C7293;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid #191C24;
+}
+
+.DSidebar>.navbar-nav>.nav-item>i {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 40px;
+}
+
+.DSidebar>.navbar-nav>.active>i,
+.nav-item>i:hover {
+    background-color: #191c24 !important;
+}
+
+.DSidebar>.navbar-nav>.active,
+.nav-item:hover {
+    border-left: 3px solid #191c24;
+    border-radius: 0 30px 30px 0;
+    outline: none;
+    color: #eb1616 !important;
+    background: #000000 !important;
+    border-color: #eb1616 !important;
+}
+
+.DSidebar>.navbar-nav>.Logout {
+    display: none;
+ }
+
+@media (max-width: 768px) {
+    .DSidebar>.navbar-nav>.Logout {
+       display: block;
+    }
+}

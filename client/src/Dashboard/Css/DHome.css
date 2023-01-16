@@ -1,0 +1,183 @@
+.DHome {
+    background-color: #000;
+    height: 100%;
+}
+
+.DHome>.DHome_Container>.Container_Item {
+    background-color: #191C24;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.DHome>.DHome_Container>.Container_Item:nth-child(1) {
+    cursor: unset;
+}
+
+.DHome>.DHome_Container>.Container_Item>i {
+    color: #EB1616 !important;
+}
+
+.DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_heading {
+    color: #6C7293;
+    font-weight: 500;
+}
+
+.DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_value {
+    color: white;
+    font-weight: 600;
+}
+
+.DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_value {
+    color: white;
+    font-weight: 600;
+}
+
+
+/* Orders  */
+.DHome .PendingOrder>.row>.card,
+.DHome .CompletedOrder>.row>.card {
+    background-color: #191C24;
+}
+
+.DHome .PendingOrder>.row>.card>.card-header>.row>.OrderCard_Header,
+.DHome .PendingOrder>.row>.card>.card-header>.row>.Card_Body,
+.DHome .CompletedOrder>.row>.card>.card-header>.row>.OrderCard_Header,
+.DHome .CompletedOrder>.row>.card>.card-header>.row>.Card_Body {
+    background-color: #ddd;
+    border-top-left-radius: 5px;
+    border-right: 2px solid #eb1616;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7293;
+}
+
+.DHome .PendingOrder>.row>.card>.card-header,
+.DHome .CompletedOrder>.row>.card>.card-header {
+    background-color: #191C24;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7293;
+    border-bottom: 1px solid #6C7293;
+}
+
+.DHome .PendingOrder>.row>.card>.card-body>.row>.col-lg-12>.card,
+.DHome .CompletedOrder>.row>.card>.card-body>.row>.col-lg-12>.card {
+    background-color: #191C24;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7293;
+    border: 1px solid #eb1616;
+}
+
+
+.DHome .PendingOrder>.row>.card>.card-body>.row>.col-lg-12>.row>.col-lg-4>.btn,
+.DHome .CompletedOrder>.row>.card>.card-body>.row>.col-lg-12>.row>.col-lg-4>.btn{
+    min-width: 141px!important;
+    width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DHome .PendingOrder>.row>.card>.card-body,
+.DHome .CompletedOrder>.row>.card>.card-body {
+    color: #6C7293;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DHome .PendingOrder>.row>.card>.card-footer,
+.DHome .CompletedOrder>.row>.card>.card-footer {
+    border-top: 1px solid #6C7293;
+}
+
+.DHome .PendingOrder>.row>.card>.card-footer>h5>span,
+.DHome .CompletedOrder>.row>.card>.card-footer>h5>span {
+    color: #6C7293;
+}
+
+.DHome .CompletedOrder>.row>.card>.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 142px;
+    width: 150px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #6C7293 50%, #191C24 50%) right;
+    background-size: 201%;
+    border-top-right-radius: 5px;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    text-transform: uppercase;
+}
+
+.DHome .CompletedOrder>.row>.card>.btn:hover {
+    background-position: left;
+}
+
+
+@media (max-width: 768px) {
+
+    .DHome>.DHome_Container>.Container_Item {
+        flex-wrap: wrap;
+        padding: 0.5rem;
+        width: 30%;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>i,
+    .DHome>.DHome_Container>.Container_Item>strong {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt {
+        width: 100%;
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_heading {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_value {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .DHome>.DHome_Container>.Container_Item {
+        flex-wrap: wrap;
+        padding: 0.5rem;
+        width: 30%;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>i,
+    .DHome>.DHome_Container>.Container_Item>strong {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt {
+        width: 100%;
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_heading {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .DHome>.DHome_Container>.Container_Item>.Item_txt>.Item_txt_value {
+        font-size: 12px;
+    }
+}

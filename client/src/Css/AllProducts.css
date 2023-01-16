@@ -1,0 +1,198 @@
+.AllProduct {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.AllProduct>h2 {
+  font-size: 22px;
+  color: #1c1b1b;
+}
+
+.AllProduct>.AllProduct_filter {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  padding: 16px 0px;
+  min-width: 50%;
+  z-index: 12;
+  position: sticky;
+  top: 66px;
+}
+
+.AllProduct_filterMenus>button {
+  text-transform: uppercase;
+  margin-right: 1rem;
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar {
+  min-width: 25%;
+}
+
+.AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.Grid_Icon {
+  padding: 6px 8px;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.Grid_Icon>svg {
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.Grid_Icon>.active_Grid {
+  color: black;
+}
+
+.AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>select {
+  border: none;
+  border-bottom: 2px solid #bfbfbf !important;
+  width: 70%;
+  margin-left: 0 !important;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion {
+  width: 100%;
+  position: relative;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-header>.accordion-button::after {
+  margin-left: 1rem !important;
+  position: absolute;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-header>.accordion-button:hover {
+  color: #090909 !important;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-header>.accordion-button:not(.collapsed)::after {
+  color: #000 !important;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-header>.accordion-button {
+  border-radius: 0;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: none !important;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-collapse {
+  position: absolute;
+  background: white;
+  width: 100%;
+  z-index: 11;
+  border-radius: 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.accordion>.accordion-item>.accordion-collapse>.accordion-body>button {
+  border-radius: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000 !important;
+  width: 100%;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu>.AllProduct_collectionToolbar>select {
+  width: 100%;
+}
+
+.AllProduct>.container>.row>.col-4 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 32%;
+}
+
+.AllProduct>.container>.row>.col-6 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 49%;
+}
+
+.AllProduct>.AllProduct_filter>.Mobile_Filter_Menu {
+  display: none;
+}
+
+/* 
+Media Query
+************************************************************ */
+@media (max-width: 768px) {
+  .AllProduct {
+    margin: 1rem 0;
+  }
+
+  .AllProduct>.AllProduct_filter {
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  .AllProduct>.AllProduct_filter>.Desktop_Filter_Menu {
+    display: none !important;
+    width: 100% !important;
+  }
+
+  .AllProduct>.AllProduct_filter>.Mobile_Filter_Menu {
+    display: block !important;
+  }
+
+  .AllProduct>.AllProduct_filter {
+    top: 0px;
+  }
+
+  .AllProduct>.ProductGrid2x_Column {
+    padding: 0 1rem;
+  }
+
+  .AllProduct>.container>.row>.col-6 {
+    width: 48%;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar {
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.Grid_Icon {
+    display: none;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.form-select {
+    width: 100% !important;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>select {
+    border: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Desktop_Filter_Menu>button {
+    margin-right: 0rem;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_filterMenus {
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar {
+    justify-content: space-between !important;
+    width: 100%;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.Grid_Icon {
+    text-align: left;
+    padding: 10px 14px;
+  }
+
+  .AllProduct>.AllProduct_filter>.AllProduct_collectionToolbar>.form-select {
+    width: 30%;
+    text-align: left;
+    padding: 10px 14px;
+  }
+}

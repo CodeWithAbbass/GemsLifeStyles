@@ -1,0 +1,111 @@
+.DLogin {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 100vh;
+}
+
+.DLogin>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.DLogin>p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.DLogin>form {
+    width: 40%;
+    margin: auto;
+}
+
+.DLogin>form>input {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #000;
+    color: #6c757d;
+    border: 1px solid #6C7293;
+}
+
+.DLogin>form>input:focus {
+    background-color: #000;
+    border: 1px solid #EB1616;
+}
+
+
+.DLogin>form>input[placeholder] {
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    color: white;
+}
+
+.DLogin>form>button[type=submit] {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    color: white;
+}
+
+.DLogin>form>button[type=submit]:hover {
+    background-position: left;
+    color: white !important;
+}
+
+.DLogin>form>input[type=number]::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+}
+
+.DLogin>form>input::-webkit-file-upload-button {
+    color: white;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+}
+
+.DLogin>form>input:hover::-webkit-file-upload-button {
+    background-position: left;
+}
+
+.DLogin>form>button[type=button] {
+    position: absolute;
+    transform: translate(0%, -150%);
+    right: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+}
+
+.DLogin>form>button[type=button]:hover {
+    color: white;
+}
+
+.DLogin>form>.createOne {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+    margin: 2rem 0;
+}
+
+.DLogin>form>.createOne>a {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .DLogin>form {
+        width: 100%;
+    }
+}

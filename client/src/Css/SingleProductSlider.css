@@ -1,0 +1,27 @@
+.SingleProductSlider>.slick-slider>.slick-dots {
+    bottom: 0 !important;
+}
+
+.SingleProductSlider>.slick-slider>.slick-dots>.slick-active {
+    background: none !important;
+}
+
+.SingleProductSlider>.slick-slider>.slick-list>.slick-track>.slick-active {
+    background: none !important;
+    padding: 0 !important;
+}
+.SingleProductSlider>.slick-slider>.slick-arrow{
+    background: none!important;
+    z-index: 1!important;
+    display: none!important;
+  }
+
+.SingleProductSlider>.slick-slider>.slick-dots>li>button:before {
+    font-size: 8px !important;
+}
+
+.SingleProductSlider>.slick-slider>.slick-list>.slick-track>.slick-slide>div>div>div>div {
+    left: 0 !important;
+    margin-left: 0px !important;
+    border: none !important;
+}

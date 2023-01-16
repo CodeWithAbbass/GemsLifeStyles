@@ -1,0 +1,84 @@
+.DSignup {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.DSignup>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.DSignup>p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.DSignup>form {
+    width: 40%;
+    margin: auto;
+}
+
+.DSignup>form>input {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #000;
+    color: #6c757d;
+    border: 1px solid #6C7293;
+}
+
+.DSignup>form>input:focus {
+    background-color: #000;
+    border: 1px solid #EB1616;
+}
+
+
+.DSignup>form>input[placeholder] {
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    color: white;
+}
+
+.DSignup>form>button[type=submit] {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    color: white;
+}
+
+.DSignup>form>button[type=submit]:hover {
+    background-position: left;
+    color: white !important;
+}
+
+.DSignup>form>input[type=number]::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+}
+
+.DSignup>form>input::-webkit-file-upload-button {
+    color: white;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+}
+
+.DSignup>form>input:hover::-webkit-file-upload-button {
+    background-position: left;
+}
+
+@media (max-width: 992px) {
+    .DSignup>form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,455 @@
+.DProduct {
+    background-color: #000;
+    height: 100%;
+}
+
+
+.DProduct>.DProduct_Container>.Container_Item {
+    background-color: #191C24;
+    padding: 1.5rem;
+}
+
+.DProduct>.DProduct_Container>.clickable {
+    cursor: pointer;
+}
+
+.DProduct>.DProduct_Container>.Container_Item>i {
+    color: #EB1616 !important;
+    font-size: 40px;
+}
+
+.DProduct>.DProduct_Container>.Container_Item>strong {
+    color: #EB1616 !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.DProduct>.DProduct_Container>.Container_Item>.Item_txt_value {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* ////////////////////////////////// */
+/* ADD Product  */
+
+.DProduct>#AddProductContainer {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    visibility: hidden;
+    display: none;
+    -webkit-animation: fadeIn .5s ease-out;
+    animation: fadeIn .5s ease-out;
+    padding: 2rem 0;
+}
+
+.DProduct>.AddProduct>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.DProduct>.AddProduct>p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.DProduct>.AddProduct>form {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.DProduct>.AddProduct>form>input,
+.DProduct>.AddProduct>form>select,
+.DProduct>.AddProduct>form>select>option,
+.DProduct>.AddProduct>form>textarea,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select>option,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>textarea {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #000;
+    color: #6c757d;
+    border: 1px solid #6C7293;
+    width: 48%;
+}
+
+.DProduct>.AddProduct>form>input[placeholder],
+.DProduct>.AddProduct>form>textarea[placeholder],
+.DProduct>.AddProduct>form>select>option,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input[placeholder],
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>textarea[placeholder],
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select>option {
+    color: white;
+}
+
+.DProduct>.AddProduct>form>input::-webkit-file-upload-button,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input::-webkit-file-upload-button {
+    color: white;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+}
+
+.DProduct>.AddProduct>form>input:hover::-webkit-file-upload-button,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input:hover::-webkit-file-upload-button {
+    background-position: left;
+}
+
+.DProduct>.AddProduct>form>input:focus,
+.DProduct>.AddProduct>form>textarea:focus,
+.DProduct>.AddProduct>form>select:focus,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input:focus,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>textarea:focus,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select:focus {
+    border: 1px solid #EB1616;
+}
+
+.DProduct>.AddProduct>form>input[type="date"],
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input[type="date"] {
+    color: #6c757d !important;
+}
+
+.DProduct>.AddProduct>form>input[type="date"]::-webkit-calendar-picker-indicator,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 1;
+    filter: invert(1);
+}
+
+.DProduct>.AddProduct>form>.btn,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>.btn {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    color: white;
+}
+
+.DProduct>.AddProduct>form>.btn:hover,
+.DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>.btn:hover {
+    background-position: left;
+    color: white !important;
+}
+
+
+
+/* ////////////////////////////////// */
+/* DELETE Product  */
+.DProduct>#DeleteProductContainer {
+    margin-top: 1rem;
+    visibility: hidden;
+    display: none;
+    -webkit-animation: fadeIn .5s ease-out;
+    animation: fadeIn .5s ease-out;
+    padding: 2rem 0;
+}
+
+.DProduct>.DeleteProduct>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+/* ////////////////////////////////// */
+/* EDIT Product  */
+.DProduct>#EditProductContainer {
+    margin-top: 1rem;
+    visibility: hidden;
+    display: none;
+    -webkit-animation: fadeIn .5s ease-out;
+    animation: fadeIn .5s ease-out;
+    padding: 2rem 0;
+}
+
+.DProduct>.EditProduct>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+/* ////////////////////////////////// */
+/* ALL Product  */
+.DProduct>#AllProductsContainer {
+    margin-top: 1rem;
+    visibility: hidden;
+    display: none;
+    -webkit-animation: fadeIn .5s ease-out;
+    animation: fadeIn .5s ease-out;
+    padding: 2rem 0;
+}
+
+.DProduct>.AllProducts>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.DProduct>.AllProducts>.container {
+    background-color: #191C24;
+    border-radius: 5px;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_MainImg {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_OtherImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid #EB1616;
+    min-height: 350px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_OtherImg>img {
+    background-color: #6C7293;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt {
+    color: white;
+    text-align: left;
+    border-right: 2px solid #EB1616;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>strong,
+.Product_Meta>.Product_Meta_items>strong {
+    color: #6C7293;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>p,
+.Product_Meta>p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>.Product_HeadingTxt_MetaDescription>li {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_Meta {
+    color: white;
+    text-align: left;
+    border-right: 2px solid #EB1616;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>.Product_Meta>.Product_Meta_items {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer {
+    position: relative;
+}
+
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_EditBtn,
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_TrashBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 142px;
+    width: 150px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #6C7293 50%, #191C24 50%) right;
+    background-size: 201%;
+    border-top-right-radius: 5px;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    text-transform: uppercase;
+}
+
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_TrashBtn {
+    left: 0;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 5px;
+}
+
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_EditBtn:hover,
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_TrashBtn:hover {
+    background-position: left;
+}
+
+/* ////////////////////////////////////////////////  */
+/* MobileAllProducts  */
+.DProduct>.AllProducts>.container>.MobileAllProducts {
+    display: none;
+}
+
+.DProduct>.AllProducts>.container>.AllProducts_MainContainer>.Product_OtherImg>.row>img {
+    background-color: #6C7293;
+    padding: 5px;
+    border-radius: 2px;
+    width: 32%;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_OtherImg {
+    margin: 1rem 0;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_EditBtn,
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_TrashBtn {
+    min-width: 110px;
+    font-size: 10px;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row>.HeadingTxt>strong,
+.Product_Meta>.Product_Meta_items>strong {
+    color: #6C7293;
+    font-size: 14px;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row>.col-8,
+.Product_HeadingTxt>.container>.row>.col-8>.Product_HeadingTxt_MetaDescription>li {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row>.col-8 {
+    border-left: 2px solid #EB1616;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row {
+    border: 2px solid #6C7293;
+    border-bottom: 0;
+}
+
+.DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.TagRow {
+    border: 2px solid #6C7293;
+}
+
+
+/* ////////////////////////////////// */
+/* Modal */
+.modal>.modal-dialog>.modal-content {
+    background-color: #191C24;
+    color: white;
+}
+
+.modal>.modal-dialog>.modal-content>.modal-header>.btn-close {
+    filter: invert(1);
+}
+
+.modal-content>.modal-footer>.btn {
+    width: 150px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #6C7293 50%, #191C24 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+}
+
+.modal-content>.modal-footer>.btn:hover {
+    background-position: left;
+}
+
+
+
+/* ////////////////////////////////// */
+/* Media Query */
+@media (max-width: 768px) {
+
+    .DProduct>.DProduct_Container>.Container_Item {
+        flex-wrap: wrap;
+        padding: 0.5rem;
+        width: 30%;
+    }
+
+    .DProduct>.DProduct_Container>.Container_Item>i,
+    .DProduct>.DProduct_Container>.Container_Item>strong {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .DProduct>.DProduct_Container>.Container_Item>.Item_txt_value {
+        width: 100%;
+        text-align: center;
+        margin-top: .5rem;
+        font-size: 8px;
+    }
+
+    .DProduct>.AddProduct>form>input,
+    .DProduct>.AddProduct>form>select,
+    .DProduct>.AddProduct>form>select>option,
+    .DProduct>.AddProduct>form>textarea,
+    .DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>input,
+    .DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select,
+    .DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>select>option,
+    .DProduct>.modal>.modal-dialog>.modal-content>.modal-body>form>textarea {
+        width: 100%;
+    }
+
+    .DProduct>.AllProducts>.container>.DesktopAllProducts {
+        display: none;
+    }
+
+    .DProduct>.AllProducts>.container>.MobileAllProducts {
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .DProduct>.DProduct_Container>.Container_Item>i,
+    .DProduct>.DProduct_Container>.Container_Item>strong {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .DProduct>.DProduct_Container>.Container_Item>.Item_txt_value {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,73 @@
+.AddProduct {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.AddProduct>h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.AddProduct>p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.AddProduct>form {
+    display:block;
+    margin:auto;
+    width:25rem;
+}
+
+
+.AddProduct>form>fieldset> input:focus{
+   border: 1px solid black;
+}
+.AddProduct>form>fieldset> input[placeholder] {
+    font-size: 14px;
+    font-weight: 500;
+}
+.AddProduct>form>fieldset>select>option{
+    font-size: 14px;
+    font-weight: 500;
+}
+.AddProduct>form>fieldset>select:focus{
+    border: 1px solid black;
+ }
+.AddProduct>form>fieldset> button[type=submit] {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 201%;
+    transition: .3s ease-out;
+    color: white;
+}
+
+.AddProduct>form>fieldset> button[type=submit]:hover {
+    background-position: left;
+    color: black !important;
+}
+
+.AddProduct>form>fieldset> button[type=button] {
+    position: absolute;
+    transform: translate(160%, -150%);
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+}
+.AddProduct>form>fieldset> button[type=button]:hover {
+    color: #000;
+}
+/* .AddProduct>form>.createOne {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+    margin: 2rem 0;
+}
+.AddProduct>form>.createOne>a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+} */

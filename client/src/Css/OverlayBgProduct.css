@@ -1,0 +1,77 @@
+.overlayBgProduct {
+    overflow: hidden;
+}
+
+.overlayBgProduct>img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.overlayBgProduct>.imgHoverd {
+    transform: scale(1.1);
+}
+
+.card>.card_Overlay {
+    position: absolute;
+    background: rgb(0 0 0 / 60%);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0.2;
+    text-align: center;
+    height: 100%;
+}
+
+.overlayBgProduct_textBox {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 2;
+}
+
+.overlayBgProduct_textBox>.title {
+    color: #000;
+    letter-spacing: -1px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.overlayBgProduct_textBox>.btn {
+    min-width: 110px;
+    width: 110px;
+    color: white;
+    padding: 14px 28px;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 201%;
+    transition: .3s ease-out;
+    color: white;
+}
+
+.overlayBgProduct_textBox>.btn:hover {
+    background-position: left;
+    color: black !important;
+}
+
+.MBAnotherProductImg {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .overlayBgProduct_textBox>.title {
+        font-size: 20px;
+    }
+
+    .AnotherProductImg {
+        display: none;
+    }
+
+    .MBAnotherProductImg {
+        display: block;
+    }
+
+}

@@ -1,0 +1,313 @@
+.Affiliate {
+  margin-top: 4rem;
+}
+
+
+/*
+*****************************************************
+            Two Sign Up Button General Css
+***************************************************** */
+
+.Affiliate .SignUp a {
+  padding: 8px 18px;
+  border-radius: 99px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid black;
+  background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%) right;
+  background-size: 202%;
+  transition: 0.3s ease-out;
+}
+
+.Affiliate .SignUp a:hover {
+  color: #000;
+  background-position: left;
+}
+
+
+/*
+*****************************************************
+                      heroBanner
+***************************************************** */
+
+.Affiliate>.container>.heroBanner>.heroImage>img {
+  width: 100%;
+  max-height: 100%;
+  margin-bottom: 44px;
+}
+
+.Affiliate>.container>.heroBanner>.heroText>h1 {
+  font-size: 29px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.Affiliate>.container>.heroBanner>.heroText>p {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Affiliate>.container>.affilitate_container>hr {
+  height: 1px;
+  margin: 0;
+}
+
+
+/*
+*****************************************************
+                    affilitate_navbar
+***************************************************** */
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar {
+  display: flex;
+  justify-content: space-between;
+  overflow-X: scroll;
+  white-space: nowrap;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.affilitate_navbar_heading {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  color: #727171;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0px;
+  margin-right: 14px;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.activeBtn {
+  color: #000;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.affilitate_navbar_heading:hover {
+  color: #000;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.affilitate_navbar_heading::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transform-origin: 0% 100%;
+  transform: scale(0, 1) translate(0px, 20px);
+  transition: transform 0.3s ease-out;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.affilitate_navbar_heading:hover::after {
+  transform: scale(1, 1) translate(0px, 20px);
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar>.activeBtn::after {
+  transform: scale(1, 1) translate(0px, 20px);
+}
+
+
+/*
+*****************************************************
+          affilitate_navbar_section_container
+***************************************************** */
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.section_innertxt {
+  display: none;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.active_section_innertxt {
+  display: block !important;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.affilitate_navbar_section_innertxt>.innertxt_heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.affilitate_navbar_section_innertxt>.innertxt_list {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 32px;
+  color: #000;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.affilitate_navbar_section_innertxt>.innertxt_list>h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.Affiliate>.container>.affilitate_container>.affilitate_navbar_section_container>.affilitate_navbar_section>.affilitate_navbar_section_innertxt>.innertxt_list>h3 {
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.affilitate_navbar_section>.Email>p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/*
+*****************************************************
+              affilitate_platforms
+***************************************************** */
+
+.Affiliate>.affilitate_platforms {
+  width: 100%;
+  padding: 80px 40px;
+  margin: 80px auto;
+  background-color: #f7f7f7;
+}
+
+.Affiliate>.affilitate_platforms>.affilitate_platforms_heading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.Affiliate>.affilitate_platforms>.Affiliate_card_container {
+  padding-top: 40px;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+
+/*
+*****************************************************
+              affilitate_ShareASale
+***************************************************** */
+
+.affilitate_ShareASale>h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 4rem 0;
+}
+
+
+/*
+*****************************************************
+                      FAQs
+***************************************************** */
+.Affiliate>.accordion>h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-collapse>.accordion-body {
+  padding: 1rem 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: none;
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #585c43;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button:focus {
+  border: none;
+  border-bottom: 1px solid #585c43;
+  outline: 0;
+  box-shadow: none;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button::after {
+  flex-shrink: 0;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: auto;
+  content: "+";
+  color: #585c43;
+  background-image: none;
+}
+
+.Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button:not(.collapsed)::after {
+  font-size: 25px;
+  font-weight: 600;
+  content: "-";
+  color: #585c43;
+  transform: none;
+}
+
+
+/*
+*****************************************************
+              Media Query
+***************************************************** */
+
+@media (max-width: 768px) {
+  .Affiliate {
+    margin-top: 1rem;
+  }
+
+  .Affiliate>.container {
+    padding: 1rem !important;
+  }
+
+  .Affiliate>.container>.heroBanner {
+    padding-bottom: 1rem !important;
+  }
+
+  .Affiliate>.container>.heroBanner>.heroImage>img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .Affiliate>.container>.heroBanner>.heroText>h1 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+
+  .Affiliate>.container>.heroBanner>.heroText>p {
+    font-size: 12px;
+  }
+
+  .Affiliate>.affilitate_platforms {
+    width: 100%;
+    padding: 40px 10px;
+    margin: 80px auto;
+    background-color: #f7f7f7;
+  }
+
+  .Affiliate>.affilitate_ShareASale>h3 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .Affiliate>.accordion>.accordion-item>.accordion-header>.accordion-button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

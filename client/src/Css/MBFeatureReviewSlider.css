@@ -1,0 +1,110 @@
+.MBFeatureReviewSlider
+  > .swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > .review
+  > a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  width: 100%;
+  min-height: 125px;
+}
+
+
+.MBFeatureReviewSlider > .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.MBFeatureReviewSlider > .swiper-slide {
+  text-align: center;
+  background: #f2f2f2;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 60%;
+}
+.MBFeatureReviewSlider > .mySwiper {
+    margin: 16px 0;
+    background: #f2f2f2;
+  }
+  
+  .MBFeatureReviewSlider > .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    width: 100%;
+  }
+  
+
+  
+.MBFeatureReviewSlider
+> .swiper
+> .swiper-wrapper
+> .swiper-slide
+> .review
+> a
+> .MBFeatureReviewimgContainer 
+{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.MBFeatureReviewSlider
+  > .swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > .review
+  > a
+  > .MBFeatureReviewimgContainer
+  > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.MBFeatureReviewSlider
+  > .swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > .review
+  > a
+  > .MBFeatureReviewtxtContainer 
+  {
+    width: 90%;
+    text-align: center;
+  }
+.MBFeatureReviewSlider
+  > .swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > .review
+  > a
+  > .MBFeatureReviewtxtContainer 
+  > p
+  {
+  min-height: 105px;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+  padding: 0 10px;
+}

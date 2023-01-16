@@ -1,0 +1,158 @@
+.DHeader {
+    background-color: #191C24;
+}
+
+.DHeader>.container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+.DHeader>.container-fluid>.row {
+    overflow: hidden;
+}
+
+.DHeader>.container-fluid>.DHeader_Left {
+    width: 60%;
+}
+
+.DHeader>.container-fluid>.DHeader_Left>.Logo_Col>img {
+    width: 100px;
+}
+
+.DHeader>.container-fluid>.DHeader_Left>.SearchContainer>i {
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 100%;
+    padding: 10px !important;
+    color: #6C7293;
+}
+
+.DHeader>.container-fluid>.DHeader_Left>.SearchContainer>.form-control {
+    background-color: #000;
+    color: #6C7293;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.DHeader>.container-fluid>.DHeader_Left>.SearchContainer>.form-control:focus {
+    box-shadow: none;
+}
+
+.DHeader>.container-fluid>.DHeader_Right {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C7293;
+    width: 40%;
+}
+
+.DHeader>.container-fluid>.DHeader_Right>.Profile_Col>.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.DHeader>.container-fluid>.DHeader_Right>.Logout_Col>.btn,
+.DHeader>.MobileHeader>.row>.Logout_Col>.btn {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: linear-gradient(to left, #191C24 50%, #6C7293 50%) right;
+    background-size: 201%;
+    border: 1px solid #6C7293;
+    transition: .3s ease-out;
+    color: #6C7293;
+}
+
+.DHeader>.container-fluid>.DHeader_Right>.Logout_Col>.btn:hover,
+.DHeader>.MobileHeader>.row>.Logout_Col>.btn:hover {
+    background-position: left;
+    color: white !important;
+}
+
+.DHeader>#DSidebar_Container {
+    background-color: #191c24;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding: 75px 0;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: 1;
+}
+
+
+/* ////////////////////////////////////////////////////// */
+/* MobileHeader */
+
+.DHeader>.MobileHeader {
+    display: none !important;
+}
+
+.DHeader>.MobileHeader>.row>.Hamburger_Icon>i {
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 100%;
+    padding: 10px !important;
+    color: #6C7293;
+}
+
+.DHeader>.MobileHeader>.row>.Logo_Col>img {
+    width: 66px;
+}
+
+.DHeader>.MobileHeader>.row>.Profile_Col>img {
+    width: 44px;
+    height: 44px;
+}
+
+
+
+/* ////////////////////////////////////////////////////// */
+/* Media Query */
+
+@media (max-width: 768px) {
+
+    .DHeader>.DesktopHeader {
+        display: none !important;
+    }
+
+    .DHeader>.MobileHeader {
+        display: block !important;
+    }
+
+    .DHeader>.container-fluid {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .DHeader>.container-fluid>.DHeader_Left {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .DHeader>.container-fluid>.DHeader_Left>.SearchContainer {
+        display: flex;
+        justify-content: flex-start !important;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .DHeader>.container-fluid>.DHeader_Left>.SearchContainer>input {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .DHeader>.container-fluid>.DHeader_Left>.SearchContainer>i {
+        margin-right: 0 !important;
+    }
+
+    .DHeader>.container-fluid>.DHeader_Left>.SearchContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+}

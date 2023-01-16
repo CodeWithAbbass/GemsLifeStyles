@@ -1,0 +1,65 @@
+.SideCartitem>.SideCartitem_img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_info>a {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_info>span {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_info>.priceList_newPrice {
+    color: red;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_info>.priceList_oldPrice {
+    text-decoration: line-through;
+    color: #6A6A6A;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.Remove {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #d0d0d000;
+    background: none;
+    width: 43px;
+    align-self: center;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.Remove:hover {
+    border-bottom: 1px solid #d0d0d0;
+
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.SideCartitem_details_action_innerDiv {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.4rem;
+    width: 100px;
+    border: 1px solid #d0d0d0;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.SideCartitem_details_action_innerDiv>i {
+   cursor: pointer;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.SideCartitem_details_action_innerDiv>input {
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.SideCartitem>.SideCartitem_details>.SideCartitem_details_action>.SideCartitem_details_action_innerDiv>input:focus-visible {
+    outline: none;
+}
