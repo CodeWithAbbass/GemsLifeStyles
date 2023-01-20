@@ -231,7 +231,7 @@ const Header = () => {
               </h2>
               <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div className="accordion-body">
-                  <a href="https://www.facebook.com/groups/soundpeatsglobal" target="_blank" rel="noopener noreferrer" onClick={closeNav}>JOIN PEATS Group</a>
+                  <Link to="#" target="_blank" rel="noopener noreferrer" onClick={closeNav}>JOIN GEMS Group</Link>
                   <Link to="/blog" onClick={closeNav}>Blog</Link>
                   <Link to="/newarrivals" onClick={closeNav}>Unboxing Videos</Link>
                 </div>

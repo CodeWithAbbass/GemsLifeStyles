@@ -6,13 +6,13 @@ import "../../Css/Blog.css";
 import { useBlogContext } from "../../context/blog_context";
 import BlogCard from "../BlogCard";
 
-const Blog = (props) => {
+const Blog = ({setProgress}) => {
   const { blog, filterBlog } = useBlogContext();
   useEffect(() => {
-    props.setProgress(10);
-    props.setProgress(30);
-    props.setProgress(50);
-    props.setProgress(100);
+    setProgress(10);
+    setProgress(30);
+    setProgress(50);
+    setProgress(100);
     window.scrollTo(0, 0);
     // eslint-disable-next-line
   }, []);
@@ -47,7 +47,7 @@ const Blog = (props) => {
             <img className="HeroImage" src="https://cdn.shopify.com/s/files/1/0508/7461/3942/articles/1_1500x.jpg?v=1664437542" alt="" />
           </div>
           <div className="hero_banner_txt">
-            <h4 className="hero_banner_txt_heading">New Arrival | SOUNDPEATS Launches Life Wireless Earbuds in the US</h4>
+            <h4 className="hero_banner_txt_heading">New Arrival | GEMS Launches Life Wireless Earbuds in the US</h4>
             <button className="ReadMorebtn mt-2">READ MORE</button>
           </div>
         </div>

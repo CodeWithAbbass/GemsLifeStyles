@@ -10,8 +10,8 @@ const Productitem = ({ id, subtitle, title, ProductImage, btntxt = "DISCOVER" })
                     <p className="title fw-bold" >{title}</p>
                     <Link to="/allproducts" className="btn rounded-0 shadow-0 border-1 border-dark fw-semibold bg-black text-white">{btntxt}</Link>
                 </div>
-                <div className="product_img">
-                <img className='align-self-center' src={ProductImage} alt="Earbuds" />
+                <div className="product_img align-self-center">
+                <img className='' src={ProductImage} alt="Earbuds" />
                 </div>
             </div>
         </>

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAdminContext } from '../../context/admin_context';
 import "../Css/DLogin.css";
 
-const DLogin = () => {
+const DLogin = ({ setProgress }) => {
 
   const Navigate = useNavigate();
   const [credentials, setCredentials] = useState({ email: '', password: '' });
@@ -18,7 +18,7 @@ const DLogin = () => {
     try {
       let { email, password } = credentials;
       const URL = 'https://gemlifestylesserver.gemlifestyles.com/api/auth/adminlogin';
-      
+      setProgress(30);
       const response = await fetch(URL, {
         method: 'POST',
         headers: {
@@ -29,13 +29,18 @@ const DLogin = () => {
         body: JSON.stringify({ email, password }),
       });
       const data = await response.json();
+      setProgress(50);
       if (data.success) {
         alert("Admin Login Successfully");
         adminData(data.admin);
+        setProgress(75);
+        setProgress(100);
         Navigate("/admin");
       }
       else {
         alert(data.error);
+        setProgress(75);
+        setProgress(100);
       }
     } catch (error) {
       console.error(error);
@@ -48,6 +53,11 @@ const DLogin = () => {
   }
 
   useEffect(() => {
+    setProgress(10);
+    setProgress(30);
+    setProgress(50);
+    setProgress(75);
+    setProgress(100);
     window.scrollTo(0, 0);
     // eslint-disable-next-line
   }, []);

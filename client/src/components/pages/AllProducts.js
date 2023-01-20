@@ -23,9 +23,9 @@ const AllProducts = ({ setProgress }) => {
   }
 
   useEffect(() => {
-    getProducts();
     setProgress(10);
     setProgress(30);
+    getProducts();
     setProgress(50);
     setProgress(100);
     window.scrollTo(0, 0);

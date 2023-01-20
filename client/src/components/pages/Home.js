@@ -13,6 +13,7 @@ import BTW69 from "../../images/GEMS/800x800/BTW69.jpg";
 import BTW88 from "../../images/GEMS/800x800/BTW88.jpg";
 import BTW91 from "../../images/GEMS/800x800/BTW91.jpg";
 import BTW95 from "../../images/GEMS/800x800/BTW95.jpg";
+import BT001 from "../../images/GEMS/1500x420/BT001-PRO.jpg";
 import BTW055 from "../../images/GEMS/1500x420/BT055-PRO.jpg";
 import BTW96 from "../../images/GEMS/1500x420/BTW96.jpg";
 
@@ -21,13 +22,16 @@ import MBFeatureReviewSlider from '../MBFeatureReviewSlider';
 import SliderUnboxing from '../SliderUnboxing';
 
 const Home = (props) => {
-  
+
   return (
     <div>
       <div className='home'>
         <MainSlider />
         <a href="#home__container  " className="btn scrollDown bg-white border-5 border-white"><i className="fa fa-angle-down" /></a>
         <div id="home__container">
+          <div className="peopleLoved my-4 pb-0 px-4 Mobile_Banner">
+            <img src={BT001} alt="Product Banner" />
+          </div>
           <div className="MbSwiper"><MbSwiper /></div>
           <div className="desktop_Products px-4">
             <Productitem
@@ -44,7 +48,7 @@ const Home = (props) => {
               ProductImage={earbud2}
               btntxt={"DISCOVER"}
             />
-            <div className="d-flex flex-wrap justify-content-between align-item-center mt-4">
+            <div className="d-flex flex-wrap justify-content-between align-items-stretch mt-4">
               <div className="twoProduct">
                 <Productitem
                   id={65613134}

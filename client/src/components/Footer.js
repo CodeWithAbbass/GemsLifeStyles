@@ -67,7 +67,7 @@ const Footer = () => {
               <div className='col-3 align-self-center'><img className='w-25' src={Company4} alt="" /> </div>
             </div>
             <div className='row p-5 m-0' style={{ textAlign: 'left' }}>
-              {/* // ******************SoundPeats Menus****************** */}
+              {/* // ******************GEMS Menus****************** */}
               <div className='col'>
                 <h6 className='text-uppercase text-white pb-3'><strong>GEMS</strong></h6>
                 <li className="Linklist__Item py-2">
@@ -93,9 +93,9 @@ const Footer = () => {
                 <li className="Linklist__Item py-2">
                   <Link to="/helpcenter" rel="noreferrer" className="d-block py-2 Link--primary">HELP CENTER</Link>
                   <Link to="/download" rel="noreferrer" className="d-block py-2 Link--primary">DOWNLOADS</Link>
-                  <Link to="/warranty" rel="noreferrer" className="d-block py-2 Link--primary">WARRANTY &amp; SERVICE</Link>
-                  <Link to="/warranty" rel="noreferrer" className="d-block py-2 Link--primary">CLAIM YOUR WARRANTY</Link>
-                  <Link to="/returnpolicy" rel="noreferrer" className="d-block py-2 Link--primary">RETURN &amp; REFUND POLICY</Link>
+                  <Link to="#" rel="noreferrer" className="d-block py-2 Link--primary">WARRANTY &amp; SERVICE</Link>
+                  <Link to="#" rel="noreferrer" className="d-block py-2 Link--primary">CLAIM YOUR WARRANTY</Link>
+                  <Link to="#" rel="noreferrer" className="d-block py-2 Link--primary">RETURN &amp; REFUND POLICY</Link>
                 </li>
               </div>
 
@@ -111,11 +111,11 @@ const Footer = () => {
 
               {/* // ******************Social Icons****************** */}
               <div className="col align-self-end ">
-                <Link className='twitter text-light px-1' to="https://twitter.com/SOUNDPEATS/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-twitter socialIcon" /></Link>
-                <Link className='facebook text-light px-1' to="https://www.facebook.com/SOUNDPEATS.Official/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-facebook socialIcon" /></Link>
-                <Link className='instagram text-light px-1' to="https://www.instagram.com/soundpeats_global/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-instagram socialIcon" /></Link>
-                <Link className='youtube text-light px-1' to="https://www.youtube.com/channel/UCYRNJk2TjaTj_fWJ5omNoBA/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-youtube socialIcon" /></Link>
-                <Link className='tiktok text-light px-1' to="https://www.tiktok.com/@soundpeatsaudio/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-tiktok socialIcon" /></Link>
+                <Link className='twitter text-light px-1' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-twitter socialIcon" /></Link>
+                <Link className='facebook text-light px-1' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-facebook socialIcon" /></Link>
+                <Link className='instagram text-light px-1' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-instagram socialIcon" /></Link>
+                <Link className='youtube text-light px-1' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-youtube socialIcon" /></Link>
+                <Link className='tiktok text-light px-1' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-tiktok socialIcon" /></Link>
               </div>
             </div>
           </div>
@@ -142,14 +142,14 @@ const Footer = () => {
             </div>
             <div className="appcrb w-25 d-flex align-items-center justify-content-evenly ">
               <div className="applestore w-25"><img className='w-100' src={APPLE} alt="" /></div>
-              <div className="playstore w-25"><a href={GOOGLE}><img className='w-100' src="https://cdn.shopify.com/s/files/1/0508/7461/3942/files/google_314x.png?v=1626084523" alt="" /></a></div>
+              <div className="playstore w-25"><Link to="#"><img className='w-100' src={GOOGLE} alt="GOOGLE PLAYSTORE" /></Link></div>
             </div>
           </div>
         </section>
 
         {/* // ******************Bottom Footer****************** */}
         <div className='desktop__Footer_bottom Footer__content py-5 d-flex bg-black justify-content-evenly' >
-          <p className="Footer__ThemeAuthor w-25"> © 2019-2022, <Link rel="noreferrer" title="">GEMS</Link>. All Rights Reserved</p>
+          <p className="Footer__ThemeAuthor w-25"> © 2020-2023, <Link rel="noreferrer" title="">Gemlifestyles.com</Link> All Rights Reserved</p>
           <Link rel="noreferrer">Privacy Policy</Link>
           <Link rel="noreferrer">Cookie Policy</Link>
           <Link rel="noreferrer">Term of Use</Link>
@@ -198,9 +198,9 @@ const Footer = () => {
               <div className="accordion-body">
                 <Link className='text-decoration-none link-light d-block py-2 py-2' to="/helpcenter">HELP CENTER</Link>
                 <Link className='text-decoration-none link-light d-block py-2 py-2' to="/download">DOWNLOADS</Link>
-                <Link className='text-decoration-none link-light d-block py-2 py-2' to="/warranty">WARRANTY & SERVICES</Link>
-                <Link className='text-decoration-none link-light d-block py-2 py-2' to="/claim">CLAIM YOUR WARRANTY</Link>
-                <Link className='text-decoration-none link-light d-block py-2 py-2' to="/refundpolicy">RETURN & REFUND POLICY</Link>
+                <Link className='text-decoration-none link-light d-block py-2 py-2' to="#">WARRANTY & SERVICES</Link>
+                <Link className='text-decoration-none link-light d-block py-2 py-2' to="#">CLAIM YOUR WARRANTY</Link>
+                <Link className='text-decoration-none link-light d-block py-2 py-2' to="#">RETURN & REFUND POLICY</Link>
               </div>
             </div>
           </div>
@@ -221,11 +221,11 @@ const Footer = () => {
         </div>
         {/* *****************CTA*************** */}
         <div className=" mt-2 ">
-          <Link className='twitter text-light pe-4' to="https://twitter.com/SOUNDPEATS/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-twitter socialIcon" /></Link>
-          <Link className='facebook text-light pe-4' to="https://www.facebook.com/SOUNDPEATS.Official/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-facebook socialIcon" /></Link>
-          <Link className='instagram text-light pe-4' to="https://www.instagram.com/soundpeats_global/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-instagram socialIcon" /></Link>
-          <Link className='youtube text-light pe-4' to="https://www.youtube.com/channel/UCYRNJk2TjaTj_fWJ5omNoBA/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-youtube socialIcon" /></Link>
-          <Link className='tiktok text-light pe-4' to="https://www.tiktok.com/@soundpeatsaudio/" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-tiktok socialIcon" /></Link>
+          <Link className='twitter text-light pe-4' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-twitter socialIcon" /></Link>
+          <Link className='facebook text-light pe-4' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-facebook socialIcon" /></Link>
+          <Link className='instagram text-light pe-4' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-instagram socialIcon" /></Link>
+          <Link className='youtube text-light pe-4' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-youtube socialIcon" /></Link>
+          <Link className='tiktok text-light pe-4' to="#" target={'_blank'} rel="noreferrer"><i className="fa-brands fa-tiktok socialIcon" /></Link>
         </div>
         {/* *****************COMPANY*************** */}
         <div className='d-flex flex-wrap text-center opacity-100 justify-content-center pt-5'>
@@ -236,14 +236,14 @@ const Footer = () => {
         </div>
         {/* *****************COPYRIGHT*************** */}
         <div className='Footer__content text-center bg-black pb-5 '>
-          <p className="Footer__ThemeAuthor"> © 2019-2022,<a href="/en-mx" title="">
-            SOUNDPEATS</a>. All Rights Reserved</p>
-          <Link to="/en-mx/pages/privacy-policy">Privacy Policy</Link>
-          <Link to="//en-mx/pages/cookie-preferences">Cookie Policy</Link>
-          <Link to="/en-mx/pages/terms-of-use">Term of Use</Link>
-          <Link to="/en-mx/pages/weee">WEEE</Link>
-          <Link to="/en-mx/pages/intellectual-property-rights">Intellectual Property Rights</Link>
-          <Link to="/en-mx/pages/intellectual-property-rights">粤ICP备2020078239号</Link>
+          <p className="Footer__ThemeAuthor"> © 2020-2023, <Link href="https://gemlifestyles.com" title="GemlifeStyles.com">
+            Gemlifestyles.com</Link> All Rights Reserved</p>
+          <Link to="#">Privacy Policy</Link>
+          <Link to="#">Cookie Policy</Link>
+          <Link to="#">Term of Use</Link>
+          <Link to="#">WEEE</Link>
+          <Link to="#">Intellectual Property Rights</Link>
+          <Link to="#">粤ICP备2020078239号</Link>
         </div>
       </div>
     </div>

@@ -7,16 +7,8 @@
   width: 100% !important;
 }
 
-.Main_Slider>.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
-.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  bottom: 5%;
-  width: 20px;
-  height: 20px;
-}
-
-.Main_Slider>.swiper-pagination-bullet {
-  width: 15px !important;
-  height: 15px !important;
+.Main_Slider>.swiper>.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 30px !important;
 }
 
 .Main_Slider>.swiper>.swiper-wrapper>.swiper-slide>.Swiper_inner {
@@ -98,11 +90,9 @@
     height: 78vh !important;
   }
 
-  .Main_Slider>.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
-  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-    left: 10%;
-    width: 20px;
-    height: 20px;
+  .Main_Slider>.swiper>.swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: 25% !important;
+    bottom: 0 !important;
   }
 
   .carousel-caption>.caption_container {
@@ -138,7 +128,7 @@
   }
 
   .Main_Slider>.swiper>.swiper-wrapper>.swiper-slide>.Swiper_inner>.carousel-caption {
-    text-align: center!important;
+    text-align: center !important;
   }
 
   .Main_Slider>.swiper>.swiper-wrapper>.swiper-slide>.Swiper_inner>.minipro_txt {

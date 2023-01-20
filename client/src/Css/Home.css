@@ -53,77 +53,72 @@
 .home>#home__container>.desktop_Products>.d-flex>.twoProduct {
     width: 49%;
 }
-
-
-.peopleLoved {
+.home>#home__container>.peopleLoved {
     width: 100%;
     height: 23.958333333333336vw;
     overflow: hidden;
 }
-
-.peopleLoved>img {
+.home>#home__container>.peopleLoved {
+    width: 100%;
+    height: 23.958333333333336vw;
+    overflow: hidden;
+}
+.home>#home__container>.peopleLoved>img {
     width: 100%;
     object-fit: cover;
 }
-
-.overlayBgProduct {
+.home>#home__container>.overlayBgProduct {
     max-width: 100%;
     width: 100%;
 }
-
-.twoOverlayProduct {
+.home>#home__container>.overlayBgProduct>.twoOverlayProduct {
     width: 49%;
 }
-
-.MbSwiper {
+.home>#home__container>.MbSwiper {
     display: none;
 }
-
-.overlayBgProductTitle {
+.home>#home__container>.overlayBgProductTitle {
     font-size: 22px;
     text-align: center;
 }
-
-.MBFeatureReviewSlider {
+.home>#home__container>.MBFeatureReviewSlider {
     display: none;
 }
-
-.SliderUnboxing {
+.home>#home__container>.SliderUnboxing {
     height: 100%;
     padding: 0 20px;
 }
 
 
+/* 
+**********************************************
+```````````````Media Query Start``````````````
+********************************************** */
 
 @media (max-width:768px) {
-    .twoOverlayProduct {
+    .home>#home__container>.overlayBgProduct>.twoOverlayProduct {
         min-width: 100%;
     }
-
-    .MbSwiper {
+    .home>#home__container>.MbSwiper {
         display: block;
         margin: 20px 0;
     }
-
-    .desktop_Products {
+    .home>#home__container>.desktop_Products {
         display: none;
     }
-
-    .overlayBgProductTitle {
+    .home>#home__container>.overlayBgProductTitle {
         display: block;
     }
-
-    .overlayBgProduct {
+    .home>#home__container>.overlayBgProduct {
         margin: 0 !important;
     }
 }
 
 @media (max-width:1024px) {
-    .MBFeatureReviewSlider {
+    .home>#home__container>.MBFeatureReviewSlider {
         display: block;
     }
-
-    .FeatureReviewSlider {
+    .home>#home__container>.FeatureReviewSlider {
         display: none;
     }
 }

@@ -73,8 +73,8 @@ function App(props) {
           <Route path="/admin" element={<Dashboard setProgress={setProgress} />}>
             <Route index element={<DHome />} />
             <Route path="product" element={<DProduct />} />
-            <Route path="login" element={<DLogin />} />
-            <Route path="signup" element={<DSignup />} />
+            <Route path="login" element={<DLogin setProgress={setProgress} />} />
+            <Route path="signup" element={<DSignup setProgress={setProgress} />} />
             <Route path="blog" element={<DBlog />} />
           </Route>
         </Routes>

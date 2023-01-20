@@ -3,6 +3,7 @@ import "../../Css/Affiliate.css";
 import AffiliateCard from "../AffiliateCard";
 import arrow from "../../images/arrow.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Affiliate = ({setProgress}) => {
 
@@ -35,7 +36,7 @@ const Affiliate = ({setProgress}) => {
             />
           </div>
           <div className="heroText">
-            <h1>SOUNDPEATS AFFILIATE PROGRAM</h1>
+            <h1>GEMS AFFILIATE PROGRAM</h1>
             <p> Start earning by promoting technology that has an everyday place
               in people's lives.</p>
           </div>
@@ -59,9 +60,9 @@ const Affiliate = ({setProgress}) => {
                 <h2 className="innertxt_heading">HOW IT WORKS</h2>
                 <div className="innertxt_list">
                   <ol className="ps-3">
-                    <li>Affiliate promotes SOUNDPEATS on social platforms</li>
+                    <li>Affiliate promotes GEMS on social platforms</li>
                     <li>Potential customer clicks on the posts</li>
-                    <li>Customer orders at SOUNDPEATS</li>
+                    <li>Customer orders at GEMS</li>
                     <li>Affiliate receives commissions</li>
                   </ol>
                 </div>
@@ -101,11 +102,11 @@ const Affiliate = ({setProgress}) => {
               </div>
 
               <div className="SignUp mb-4">
-                <a href="https://account.shareasale.com/newsignup.cfm">SIGN UP/LOG IN FOR FREE NOW &gt;</a>
+                <Link to="/signup">SIGN UP/LOG IN FOR FREE NOW &gt;</Link>
               </div>
 
               <div className="Email ">
-                <p>If you have any other queries, please do not hesitate to email us:<a className="text-decoration-none" href="mailto:marketing@soundpeatsaudio.com" title="mailto:marketing@soundpeatsaudio.com"> Marketing@soundpeatsaudio.com</a></p>
+                <p>If you have any other queries, please do not hesitate to email us:<Link className="text-decoration-none" to="mailto:marketing@gemsaudio.com" title="mailto:marketing@gemsaudio.com"> Marketing@gemsaudio.com</Link></p>
               </div>
             </div>
           </div>
@@ -171,7 +172,7 @@ const Affiliate = ({setProgress}) => {
             </button>
           </h2>
           <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body">The SOUNDPEATS Affiliate Program allows you to make money by referring customers. Each time you refer a customer to one of our websites and that customer makes a purchase, you earn a commission (a percentage of each sale). We handle the transaction processing, fulfillment and customer service. We provide you with detailed reports on sales that were referred from your website and every month, we send you a check for the commission you earned.</div>
+            <div className="accordion-body">The GEMS Affiliate Program allows you to make money by referring customers. Each time you refer a customer to one of our websites and that customer makes a purchase, you earn a commission (a percentage of each sale). We handle the transaction processing, fulfillment and customer service. We provide you with detailed reports on sales that were referred from your website and every month, we send you a check for the commission you earned.</div>
           </div>
         </div>
         <div className="accordion-item border-0">
@@ -181,7 +182,7 @@ const Affiliate = ({setProgress}) => {
             </button>
           </h2>
           <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body">Applying to and participating in the SOUNDPEATS Affiliate Program is absolutely FREE. There are no fees of any kind - there is no charge to apply and no minimum sales requirement.</div>
+            <div className="accordion-body">Applying to and participating in the GEMS Affiliate Program is absolutely FREE. There are no fees of any kind - there is no charge to apply and no minimum sales requirement.</div>
           </div>
         </div>
         <div className="accordion-item border-0">
@@ -191,7 +192,7 @@ const Affiliate = ({setProgress}) => {
             </button>
           </h2>
           <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body">Register a ShareASale affiliate account. Sign up for SOUNDPEATS & ShareASale Program. Get accepted to the program. Create links to SOUNDPEATS brands from the Ads section on Impact. Promote SOUNDPEATS family of brands on your site. Login to Impact at any time to see reports of how your website is doing, how many people are browsing and what they're buying. Run reports your way whenever you want - they're updated every day. Get paid up to 20% commission!</div>
+            <div className="accordion-body">Register a ShareASale affiliate account. Sign up for GEMS & ShareASale Program. Get accepted to the program. Create links to GEMS brands from the Ads section on Impact. Promote GEMS family of brands on your site. Login to Impact at any time to see reports of how your website is doing, how many people are browsing and what they're buying. Run reports your way whenever you want - they're updated every day. Get paid up to 20% commission!</div>
           </div>
         </div>
       </div>

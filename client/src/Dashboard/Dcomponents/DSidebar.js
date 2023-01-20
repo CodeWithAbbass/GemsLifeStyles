@@ -28,9 +28,9 @@ const DSidebar = ({ closeDSidebar }) => {
         </div>
       </div>
       <div className="navbar-nav w-100" >
-        <Link to="/admin" className={`nav-item ${location.pathname === "/admin" ? "active" : ""}`} ><i className='fa fa-tachometer-alt me-2'></i>Dashboard</Link>
-        <Link to="/admin/product" className={`nav-item ${location.pathname === "/admin/product" ? "active" : ""}`} ><i className="fa-brands fa-product-hunt me-2"></i>Product</Link>
-        <Link to="/admin/blog" className={`nav-item ${location.pathname === "/admin/blog" ? "active" : ""}`} ><i className="fa-sharp fa-solid fa-blog me-2"></i>Blog</Link>
+        <Link to="/admin" className={`nav-item ${location.pathname === "/admin" ? "active" : ""}`} onClick={closeDSidebar}><i className='fa fa-tachometer-alt me-2'></i>Dashboard</Link>
+        <Link to="/admin/product" className={`nav-item ${location.pathname === "/admin/product" ? "active" : ""}`} onClick={closeDSidebar}><i className="fa-brands fa-product-hunt me-2"></i>Product</Link>
+        <Link to="/admin/blog" className={`nav-item ${location.pathname === "/admin/blog" ? "active" : ""}`} onClick={closeDSidebar}><i className="fa-sharp fa-solid fa-blog me-2"></i>Blog</Link>
         <Link to="/admin/login" className={`nav-item Logout`} onClick={adminLogout}><i className="fa-sharp fa-solid fa-user me-2"></i>Logout</Link>
       </div>
     </div>

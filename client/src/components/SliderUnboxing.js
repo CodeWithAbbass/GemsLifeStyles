@@ -29,7 +29,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431341}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"SoundPEATS Air3 Pro : AptX Adaptive & Noise Cancelling for $59!"}
+        subtitle={"GEMS Air3 Pro : AptX Adaptive & Noise Cancelling for $59!"}
         title={"GAMESKY!"}/>
         </SwiperSlide>
 
@@ -38,7 +38,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431342}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"SoundPEATS Free2 Classic - THE BEST DEAL IN WIRELESS EARBUDS - $18!"}
+        subtitle={"GEMS Free2 Classic - THE BEST DEAL IN WIRELESS EARBUDS - $18!"}
         title={"FLOSSY CARTER!"}
         />
 
@@ -48,7 +48,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431343}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"Their Best Bud Yet! SoundPEATS Free 2 Classic"}
+        subtitle={"Their Best Bud Yet! GEMS Free 2 Classic"}
         title={"PICKY AUDIO!"}
         />
         </SwiperSlide>
@@ -56,7 +56,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"The NEW KING under $30! 👑 Soundpeats Free2 Classic"}
+        subtitle={"The NEW KING under $30! 👑 GEMS Free2 Classic"}
         title={"EL JEFE REVIEWS!"}
         />
         </SwiperSlide>
@@ -64,7 +64,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"A Steal At This Price! : The NEW SoundPEATS Free2 Classic"}
+        subtitle={"A Steal At This Price! : The NEW GEMS Free2 Classic"}
         title={"GAMESKY!"}
         />
         </SwiperSlide>
@@ -72,7 +72,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"SoundPeats Free2 Classic | WHO WANTS FREE EARBUDS?"}
+        subtitle={"GEMS Free2 Classic | WHO WANTS FREE EARBUDS?"}
         title={"BRANON NO D!"}
         />
         </SwiperSlide>
@@ -80,7 +80,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"Really THAT Impressive? 🤔 - Soundpeats Mini Pro Review"}
+        subtitle={"Really THAT Impressive? 🤔 - GEMS Mini Pro Review"}
         title={"KENNETH TANAKA!"}
         />
         </SwiperSlide>
@@ -88,7 +88,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"SoundPeats MINI Pro vs MINI // MIGHTY BUT STILL MINI"}
+        subtitle={"GEMS MINI Pro vs MINI // MIGHTY BUT STILL MINI"}
         title={"BRANON NO D!"}
         />
         </SwiperSlide>
@@ -96,7 +96,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"Soundpeats Free2 Classic vs Mini - What's DIFFERENT?!"}
+        subtitle={"GEMS Free2 Classic vs Mini - What's DIFFERENT?!"}
         title={"KENNETH TANAKA!"}
         />
         </SwiperSlide>
@@ -104,7 +104,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"SoundPEATS H1 vs Sonic vs 3SE - Dual Driver True Wireless Earbuds!"}
+        subtitle={"GEMS H1 vs Sonic vs 3SE - Dual Driver True Wireless Earbuds!"}
         title={"PICKY AUDIO!"}
         />
         </SwiperSlide>
@@ -120,7 +120,7 @@ const SliderUnboxing =  () => {
         <SliderUnboxingSlide 
         id={5431345}
         videoUrl={"https://www.youtube.com/embed/zur8Viw1N6g"}
-        subtitle={"First Look! : SoundPEATS TrueAir 2 True Wireless!"}
+        subtitle={"First Look! : GEMS TrueAir 2 True Wireless!"}
         title={"GAMESKY!"}
         />
         </SwiperSlide>

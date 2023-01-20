@@ -38,9 +38,9 @@ const Dashboard = ({ setProgress }) => {
     setProgress(10);
     setProgress(30);
     setProgress(50);
+    getadmin();
     setProgress(75);
     setProgress(100);
-    getadmin();
     window.scrollTo(0, 0);
     // eslint-disable-next-line
   }, []);

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAdminContext } from '../../context/admin_context';
 import "../Css/DSignup.css";
 
-const DSignup = () => {
+const DSignup = ({ setProgress }) => {
   const { adminData } = useAdminContext();
   const [credentials, setCredentials] = useState({
     fname: "",
@@ -29,19 +29,25 @@ const DSignup = () => {
   const createAdmin = async (formData) => {
     try {
       const URL = 'https://gemlifestylesserver.gemlifestyles.com/api/auth/adminsignup';
+      setProgress(30);
       const response = await fetch(URL, {
         method: 'POST',
         credentials: "include",
         body: formData,
       });
       const data = await response.json();
+      setProgress(50);
       if (data.success) {
         alert("Account Created Successfully");
         adminData(data.admin);
+        setProgress(75);
+        setProgress(100);
         Navigate("/admin");
       }
       else {
         alert(data.Error);
+        setProgress(75);
+        setProgress(100);
       }
     } catch (error) {
       console.error(error);
@@ -61,7 +67,15 @@ const DSignup = () => {
     createAdmin(formData);
   }
 
-
+  useEffect(() => {
+    setProgress(10);
+    setProgress(30);
+    setProgress(50);
+    setProgress(75);
+    setProgress(100);
+    window.scrollTo(0, 0);
+    // eslint-disable-next-line
+  }, []);
 
 
   return (

@@ -256,11 +256,13 @@
 .Product_Meta>p {
     font-size: 14px;
     font-weight: 500;
+    word-break: break-word;
 }
 
 .DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>.Product_HeadingTxt_MetaDescription>li {
     font-size: 14px;
     font-weight: 500;
+    word-break: break-word;
 }
 
 .DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_Meta {
@@ -273,6 +275,7 @@
     justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    word-break: break-word;
 }
 
 .DProduct>.AllProducts>.container>.DesktopAllProducts>.Product_HeadingTxt>.Product_Meta>.Product_Meta_items {
@@ -341,6 +344,7 @@
 .Product_Meta>.Product_Meta_items>strong {
     color: #6C7293;
     font-size: 14px;
+    word-break: break-word;
 }
 
 .DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row>.col-8,
@@ -348,6 +352,7 @@
     color: white;
     font-size: 14px;
     font-weight: 500;
+    word-break: break-word;
 }
 
 .DProduct>.AllProducts>.container>.MobileAllProducts>.Product_HeadingTxt>.container>.row>.col-8 {
@@ -409,6 +414,7 @@
         text-align: center;
         font-size: 16px;
         line-height: 1;
+        word-break: break-word;
     }
 
     .DProduct>.DProduct_Container>.Container_Item>.Item_txt_value {
